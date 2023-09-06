@@ -5,7 +5,7 @@ let cantidad = 0;
 const comprobarBtn = $("#comprobar");
 
 
-
+// Funcionalidad de boton
 comprobarBtn.click(function () {
     numeroElegido = $("#numeroElegido").val();
     numeroElegido = parseInt(numeroElegido);
@@ -23,6 +23,8 @@ comprobarBtn.click(function () {
     } else {
         $("#mensajeError").html("Tu numero elejido es mayor  al numero que buscas");
     };
+
+
 
 });
 
